@@ -1,11 +1,20 @@
 body{
     font-family: 'Poppins',sans-serif;
 }
-
+/* when we remove default margin and padding ,then using this code..... */
+*{
+    margin: 0;
+    padding: 0;
+}
 
 h1{
     font-size: 50px;
     font-style: italic;
+}
+h2{
+     font-size: 30px;
+
+
 }
 .name-heighlight{
     color:rgb(0, 255, 85);
@@ -19,4 +28,68 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.back-ground{
+    background-image: url("images/back-groumd.png");
+    background-repeat: no-repeat;
+
+}
+p{
+    color: dimgray;
+}
+
+.half-width p {
+    margin-bottom: 30px;
+    
+}
+
+
+
+
+section{
+    height: 750px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(lightSalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+}
+.dream-area{
+    /* background-image: url("images/rater.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover; */
+  background-image: linear-gradient(#C5E8E4,#2ac2b0);
+}
+.experiance-area{
+    background-image:linear-gradient(#2ac2b0,#27d6c2) ;
+    
+}
+.single-experiance{
+    box-shadow:10px 10px 30px rgb(230, 23, 23) ;
+    border-radius: 10px;
+    height: 50%;
+    background-color: white;
+}
+
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient( 180deg, lightSalmon,rgb(71, 255, 86));
+    border-image-slice: 1;
+   
+}
+#baby-web{
+     border-left: 7px solid;
+     border-image: linear-gradient( 180deg,blue,cyan);
+     border-image-slice: 1;
+}
+footer{
+      background-image: linear-gradient(#27d6c2,#0abea9);
+      text-align: center;
+      color: rgb(10, 119, 24);
+
 }
