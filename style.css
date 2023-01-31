@@ -47,7 +47,7 @@ p{
 
 
 section{
-    height: 750px;
+    height: 600px;
 }
 .link-button{
     text-decoration: none;
@@ -71,7 +71,7 @@ section{
 .single-experiance{
     box-shadow:10px 10px 30px rgb(230, 23, 23) ;
     border-radius: 10px;
-    height: 50%;
+    height: 60%;
     background-color: white;
 }
 
